@@ -1335,7 +1335,7 @@
 			<  1747200000 0x0404005b 0x09480048 0x2 4 >,
 			<  1958400000 0x04040066 0x0a510051 0x2 5 >,
 			<  2150400000 0x04040070 0x0b590059 0x2 6 >,
-			<  2208000000 0x04040073 0x0b5c005c 0x3 7 >;
+			<  2457600000 0x04040080 0x0c660066 0x3 7 >;
 
 		qcom,perfcl-speedbin3-v0 =
 			<   300000000 0x0004000f 0x01200020 0x1 1 >,
@@ -1349,7 +1349,9 @@
 			<  1113600000 0x0404003a 0x052e002e 0x1 2 >,
 			<  1401600000 0x04040049 0x073a003a 0x2 3 >,
 			<  1747200000 0x0404005b 0x09480048 0x2 4 >,
-			<  1958400000 0x04040066 0x0a510051 0x2 5 >;
+			<  1958400000 0x04040066 0x0a510051 0x2 5 >,
+			<  2150400000 0x04040070 0x0b590059 0x2 6 >,
+			<  2457600000 0x04040080 0x0c660066 0x3 7 >;
 
 		qcom,up-timer = <1000 1000>;
 		qcom,down-timer = <1000 1000>;
@@ -2547,7 +2549,7 @@
 #include "msm-pm660l.dtsi"
 #include "msm-pm660-rpm-regulator.dtsi"
 #include "msm-pm660l-rpm-regulator.dtsi"
-#include "sdm660-regulator.dtsi"
+include "sdm660-regulator.dtsi"
 #include "msm-gdsc-660.dtsi"
 #include "sdm660-gpu.dtsi"
 #include "sdm660-pm.dtsi"
