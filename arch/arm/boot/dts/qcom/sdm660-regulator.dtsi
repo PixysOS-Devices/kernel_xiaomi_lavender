@@ -709,7 +709,7 @@
 			apc0_pwrcl_vreg: regulator {
 				regulator-name = "apc0_pwrcl_corner";
 				regulator-min-microvolt = <1>;
-				regulator-max-microvolt = <9>;
+				regulator-max-microvolt = <8>;
 
 				qcom,cpr-fuse-corners = <5>;
 				qcom,cpr-fuse-combos = <40>;
@@ -759,22 +759,22 @@
 					/* Speed bin 0 */
 					<300000000  633600000  902400000
 					1113600000 1401600000 1536000000
-					1747200000 2457600000>,
+					1747200000 1843200000>,
 
 					/* Speed bin 1 */
 					<300000000  633600000  902400000
 					1113600000 1401600000 1536000000
-					1747200000 2457600000>,
+					1747200000 1843200000>,
 
 					/* Speed bin 3 */
 					<300000000  633600000  902400000
 					1113600000 1401600000 1536000000
-                                        1747200000 2457600000>,
+					1612800000 1843200000>,
 
 					/* Speed bin 4 */
 					<300000000  633600000  902400000
 					1113600000 1401600000 1536000000
-					1747200000 2457600000>;
+					1747200000 1843200000>;
 
 				qcom,allow-voltage-interpolation;
 				qcom,allow-quotient-interpolation;
